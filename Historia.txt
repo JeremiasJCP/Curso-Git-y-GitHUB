@@ -1,5 +1,5 @@
 Hola mi nombre es Jeremias Cordero, Tengo 18 años
 Vivo en España desde hace un par de meses.
 
-Ahora esta estudiando Git y GitHub
+Ahora esta estudiando Git y GitHub, ademas de estar estudiando en el curso definitivo de HTML y CSS
 
