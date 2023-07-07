@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(33, 52, 52);
+    background-color: rgb(44, 4, 103);
     font-family: 'Times New Roman', Times, serif;
     color: rgb(45, 36, 36);
 }
@@ -98,5 +98,12 @@ main{
 .caminito-Tortugas{
     width: 100%;
     height: 10%;
-    background-color: aquamarine;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.caminito-Tortugas img{
+    width: 4%;
 }
