@@ -3,8 +3,58 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(45, 36, 36);
 }
+head{
+    background-color: black;
+    width: 100%;
+}
+
+.barra-superior{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(85, 184, 184);
+    color: black;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    padding: 2px;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.logo img{
+    margin: 10px;
+    width: 20%;
+    height: 20%;
+}
+
+.texto-de-la-barra{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    list-style: none;
+
+}
+
+.tex-list-barra{
+
+    margin-left: 30px;
+    list-style: none;
+    color: black;
+    margin-right: 10px;
+}
+
+
+
 
 main{
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
