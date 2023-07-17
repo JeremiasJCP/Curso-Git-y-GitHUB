@@ -61,6 +61,13 @@ main{
     align-items: center;
 }
 
+.postNumber{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4%;
+}
+
 .contenedor-post{
     display: flex;
     flex-direction: column;
@@ -106,4 +113,15 @@ main{
 
 .caminito-Tortugas img{
     width: 4%;
+}
+
+
+footer{
+    font-size: 80%;
+    background: rgba(0, 0, 0, 0.531);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
