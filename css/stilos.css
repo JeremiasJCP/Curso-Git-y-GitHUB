@@ -1,7 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5;
+}
+
 body{
-    background-color: rgb(73, 163, 157);
+    background: rgb(7,0,36);
+    background: linear-gradient(0deg, rgba(7,0,36,1) 0%, rgba(0,9,36,1) 6%, rgba(9,9,121,1) 34%, rgba(6,58,160,1) 53%, rgba(4,111,196,1) 71%, rgba(1,208,237,1) 91%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(45, 36, 36);
+    height: 100vh;
 }
 head{
     background-color: black;
@@ -13,9 +23,8 @@ head{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(85, 184, 184);
+    background-color: rgba(3, 65, 65, 0);
     color: black;
-    box-sizing: border-box;
 }
 
 .logo{
@@ -23,7 +32,8 @@ head{
     padding: 2px;
     flex-direction: row;
     align-items: center;
-    width: 30%;
+    width: 20%;
+    height: 40%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -37,21 +47,25 @@ head{
 .texto-de-la-barra{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
     color: black;
     list-style: none;
+}
 
+.texto-de-la-barra li{
+    width: 100%;
+    height: 100%;
 }
 
 .tex-list-barra{
-
+    text-decoration: none;
     margin-left: 30px;
     list-style: none;
     color: black;
-    margin-right: 10px;
+    margin-right: 2px;
 }
-
-
-
 
 main{
     margin-top: 20px;
@@ -64,13 +78,31 @@ main{
 .contenedor-post{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     width: 80%;
-    border: 1px solid black;
-    background-color: rgb(4, 196, 196);
+    border: 4px groove rgba(255, 255, 255, 0.465);
+    background-color: rgba(4, 196, 196, 0.513);
     box-sizing: border-box;
 }
 
+.contenedor-encabezado-post{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.contenedor-encabezado-post h1{
+    text-align: center;
+    width: 100%;
+}
+
+
+.contenedor-encabezado-post img{
+    width: 50px;
+}    
 .contenedor-post{
     text-align: center;
     font-size: 70%;
@@ -101,6 +133,8 @@ main{
     background-color: transparent;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
 }
 
